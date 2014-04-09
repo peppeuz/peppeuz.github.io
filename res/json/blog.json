@@ -1,0 +1,23 @@
+[
+{
+	"site":"AndroidWorld.it",
+	"url": "http://www.androidworld.it/author/peppeuz",
+	"role":"Contributor",
+	"article":"Android news, software review",
+	"img":"../img/aw.png"
+	},
+	{
+		"site":"DevCorner - AndroidWorld.it",
+		"url": "http://www.androidworld.it/tag/DevCorner",
+		"role":"Contributor",
+		"article":"Android development tutorial",
+		"img":"../img/dc.png"
+		},
+		{
+			"site":"LegaNerd.com",
+			"url": "http://www.leganerd.com/people/peppeuz",
+			"role":"Member",
+			"article":"Linguistic, tech and nerd stuff",
+			"img":"../img/ln.png"
+		}
+		]
