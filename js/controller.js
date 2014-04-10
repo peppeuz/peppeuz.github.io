@@ -40,7 +40,7 @@ peppeuzController.controller('IndexCtrl',['$scope', '$rootScope','$log','$locati
 
 		window.onresize = function(){
 			$rootScope.deviceWidth = window.width ;
-		$rootScope.larghezzaInfo = {width:$rootScope.deviceWidth +"px"};
+			$rootScope.larghezzaInfo = {width:$rootScope.deviceWidth +"px"};
 			$log.log($rootScope.deviceWidth);
 
 		}
@@ -92,6 +92,31 @@ peppeuzController.controller('DevCtrl', ['$scope','$log',
 peppeuzController.controller('BlogCtrl',['$scope', '$log',
 	function($scope, $log){
 		$log.log("Controller blog");
+		$scope.slides= [
+		{
+			"site":"AndroidWorld.it",
+			"url": "http://www.androidworld.it/author/peppeuz",
+			"role":"Contributor",
+			"article":"Android news, software review",
+			"img":"res/img/aw.png"
+		},
+		{
+			"site":"DevCorner (AW)",
+			"url": "http://www.androidworld.it/tag/DevCorner",
+			"role":"Contributor",
+			"article":"Android development tutorial",
+			"img":"res/img/dc.png"
+		},
+		{
+			"site":"LegaNerd.com",
+			"url": "http://www.leganerd.com/people/peppeuz",
+			"role":"Member",
+			"article":"Linguistic, tech and nerd stuff",
+			"img":"res/img/ln.jpg"
+		}
+		]
+
+
 	}]);
 
 

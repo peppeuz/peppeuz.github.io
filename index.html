@@ -13,6 +13,7 @@
 <!-- Bootstrap core CSS -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
+<link href="res/js/angular/carousel/angular-carousel.css" rel="stylesheet">
 <link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
 
 
@@ -31,7 +32,7 @@
 
       <body data-ember-extension="1" style="">
 
-      	<div class="site-wrapper" ng-controller="IndexCtrl" ng-swipe-left="change(false)" ng-swipe-right="change(true)">
+      	<div class="site-wrapper" ng-controller="IndexCtrl" >
 
       		<div class="site-wrapper-inner" ng-style="{'background-color':bgcolor}">
 
@@ -40,7 +41,7 @@
       				<div class="masthead clearfix">
       					<div class="inner">
       						<h3 class="masthead-brand">peppeuz</h3>
-      						<ul class="nav masthead-nav">
+      						<ul class="nav masthead-nav" ng-swipe-left="change(false)" ng-swipe-right="change(true)">
       							<li ng-class="{active:homeActive}"><a href="#homepage">Home</a></li>
       							<li ng-class="{active:devActive}"><a href="#development">Development</a></li>
       							<li ng-class="{active:blogActive}"><a href="#blogging">Blogging</a></li>
@@ -49,7 +50,7 @@
       						</ul>
       					</div>
       				</div>
-      				<div class="view-container" my-click="" style="position:relative;z-index:1">
+      				<div class="view-container">
       						<div ng-view></div>
       				</div>    
 
@@ -70,9 +71,9 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
 <script src="res/js/angular/lib/angular/angular.js"></script>
+<script src="res/js/angular/lib/angular/angular-touch.min.js"></script> 
 <script src="res/js/angular/carousel/angular-carousel.min.js"></script>
 <script src="res/js/angular/lib/angular/angular-animate.min.js"></script>
-<script src="res/js/angular/lib/angular/angular-touch.min.js"></script>
 <script src="res/js/angular/lib/angular/angular-route.min.js"></script>
 <script type="text/javascript" src="js/app.js"></script>
 <script type="text/javascript" src="js/controller.js"></script>
