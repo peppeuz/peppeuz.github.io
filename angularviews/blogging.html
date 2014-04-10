@@ -4,10 +4,13 @@
                                                 <li ng-repeat="slide in slides">
                                                       <div class="slideElement" ng-style="{'background-image': 'url(' + slide.img + ')'}"></div>
                                                       <div class="text">
-                                                            <p class="site"><b> {{ slide.site }}</b> <br> {{ slide.role }}</p>
-                                                      <br><p class="about">
-                                                      About: {{ slide.article }}</p><br>
-                                                  </div>
+                                                            <p class="site"><b> {{ slide.site }}</b> <br> <i>{{ slide.role }}</i></p>
+                                                      <br>
+                                                      </div>
+                                                      <p class="about">
+                                                            <b>About:</b> {{ slide.article }}</p>
+                                                      <br>
+                                                  
                                             </li>
                                       </ul>
                                 </div>

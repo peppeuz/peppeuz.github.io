@@ -355,9 +355,10 @@ body {
 
 #myCarouselUl li
 {
- background: #ecf0f1;
-  opacity: 0.9;
-  padding-left: 2%;}
+ background: white;
+  opacity: 1;
+  padding-left: 2%;
+}
 .slideElement
 {
   margin-top: 2%;
@@ -371,6 +372,10 @@ body {
   z-index: -1;
 }
 
+.text{
+
+}
 .about{
-margin-top: 5%;
+margin-top: 10%;
+
 }
