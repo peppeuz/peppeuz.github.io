@@ -155,7 +155,7 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 700px;
+    width: 800px;
   }
 }
 
@@ -180,7 +180,7 @@ body {
 
   #FBLogo{
     background: url('../res/ico/fb.png');
-         background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size:100%;
     margin-left: 10%;
   }
@@ -188,65 +188,152 @@ body {
   #FBLogo:hover
   {
    background: url('../res/ico/fbHover.png');
-        background-repeat: no-repeat;
-    background-size:100%;
+   background-repeat: no-repeat;
+   background-size:100%;
  }
 
  #TWLogo{
    background: url('../res/ico/tw.png');
-        background-repeat: no-repeat;
-    background-size:100%;
+   background-repeat: no-repeat;
+   background-size:100%;
 
  }
  #TWLogo:hover{
    background: url('../res/ico/twHover.png');
-        background-repeat: no-repeat;
-    background-size:100%;
+   background-repeat: no-repeat;
+   background-size:100%;
 
  }
 
  #GPLogo{
    background: url('../res/ico/GP.png');
-        background-repeat: no-repeat;
-    background-size:100%;
+   background-repeat: no-repeat;
+   background-size:100%;
 
  }
 
  #GPLogo:hover{
    background: url('../res/ico/gpHover.png');
-        background-repeat: no-repeat;
-    background-size:100%;
+   background-repeat: no-repeat;
+   background-size:100%;
 
  }
 
 
  #LILogo{
    background: url('../res/ico/li.png');
-     background-repeat: no-repeat;
-    background-size:100%;
+   background-repeat: no-repeat;
+   background-size:100%;
  }
 
  #LILogo:hover{
    background: url('../res/ico/liHover.png');
-        background-repeat: no-repeat;
-    background-size:100%;
+   background-repeat: no-repeat;
+   background-size:100%;
 
  }
 
 
-  .socialIcon{
-    width: 15%;
-    height:0;
-    padding-bottom: 15%;
-    -moz-border-radius: 50%; 
-    -webkit-border-radius: 50%; 
-    border-radius: 50%;
-    float:left;
-    margin:3%;
+ .socialIcon{
+  width: 15%;
+  height:0;
+  padding-bottom: 15%;
+  -moz-border-radius: 50%; 
+  -webkit-border-radius: 50%; 
+  border-radius: 50%;
+  float:left;
+  margin:3%;
+}
 
+#infoContainer{
+  max-height: 250px;
+  overflow-y:auto;
+  background: #ecf0f1;
+  opacity: 0.9;
+  color:black;
+  text-shadow: none !important;
+  font-size: 20px;
+  padding:1%;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-width: 0.8;
+  border-color: white;
+}
 
-     
+.infoPicture{
 
+  width: 35%;
+  margin:0;
+  background: black;
+  padding-bottom: 35%;
+  -moz-border-radius: 2%; 
+  -webkit-border-radius: 2%; 
+  border-radius: 2%;
+  background: url("../res/img/photo.jpg");
+  background-repeat: no-repeat;
+  background-size:100%;
+  float: left;
+  margin-right: 10px;
 
-  }
-};
+}
+
+#infoContainer p{
+  text-align:left;
+
+}
+
+#infoContainer a{
+  text-decoration: none;
+  color:black;
+}
+
+#infoContainer a:hover{
+  color:;
+}
+
+#rome{
+  width: 35%;
+  margin:0;
+  background: black;
+  padding-bottom: 35%;
+  -moz-border-radius: 2%; 
+  -webkit-border-radius: 2%; 
+  border-radius: 2%;
+  background: url("../res/img/rome.jpg");
+  background-repeat: no-repeat;
+  background-size:100%;
+  float: right;
+  margin-right: 10px;
+}
+
+#contact{
+  max-height: 50px;
+  overflow-y:auto;
+  background: #ecf0f1;
+  opacity: 0.9;
+  color:black;
+  text-shadow: none !important;
+  font-size: 18px;
+  padding:1%;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-width: 0.8;
+  border-color: white;
+  text-align:left;
+}
+
+#infoPortfolio{
+  max-height: 50px;
+  overflow-y:auto;
+  background: #ecf0f1;
+  opacity: 0.9;
+  color:black;
+  text-shadow: none !important;
+  font-size: 15px;
+  padding:1%;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-width: 0.8;
+  border-color: white;
+  text-align:left;
+}
