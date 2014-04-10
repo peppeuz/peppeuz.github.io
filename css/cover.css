@@ -323,7 +323,7 @@ body {
 }
 
 #infoPortfolio{
-  max-height: 50px;
+  max-height: 70px;
   overflow-y:auto;
   background: #ecf0f1;
   opacity: 0.9;
