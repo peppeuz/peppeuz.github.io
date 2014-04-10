@@ -359,6 +359,9 @@ body {
   opacity: 1;
   padding-left: 2%;
 }
+#myCarouselUl li a{
+  background: transparent;
+}
 .slideElement
 {
   margin-top: 2%;

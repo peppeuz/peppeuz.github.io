@@ -13,7 +13,8 @@ peppeuzController.controller('HomeCtrl', ['$scope','$log',
 peppeuzController.controller('IndexCtrl',['$scope', '$rootScope','$log','$location','$timeout',
 	function($scope, $rootScope,$log, $location,$timeout)
 	{
-
+		$scope.goTo = function(url){
+window.open(url, '_blank');		}
 		$scope.arrayPagine = ["homepage","development","blogging","info"];
 		$scope.indexArray = 0;
 		$scope.change = function (bool) 	

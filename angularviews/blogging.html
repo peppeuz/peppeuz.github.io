@@ -1,7 +1,8 @@
       				<div class="inner cover">
                                     <div id="personalCarousel">
                                           <ul  rn-carousel rn-carousel-buffered class="my-slider ng-cloak" id="myCarouselUl">
-                                                <li ng-repeat="slide in slides">
+                                                <li ng-repeat="slide in slides" ng-click="goTo(slide.url)">
+                                                
                                                       <div class="slideElement" ng-style="{'background-image': 'url(' + slide.img + ')'}"></div>
                                                       <div class="text">
                                                             <p class="site"><b> {{ slide.site }}</b> <br> <i>{{ slide.role }}</i></p>
@@ -10,7 +11,6 @@
                                                       <p class="about">
                                                             <b>About:</b> {{ slide.article }}</p>
                                                       <br>
-                                                  
                                             </li>
                                       </ul>
                                 </div>
