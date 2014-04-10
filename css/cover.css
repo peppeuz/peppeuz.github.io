@@ -307,7 +307,7 @@ body {
 }
 
 #contact{
-  max-height: 50px;
+  max-height: 80px;
   overflow-y:auto;
   background: #ecf0f1;
   opacity: 0.9;
