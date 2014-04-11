@@ -181,50 +181,52 @@ body {
   #FBLogo{
     background: url('../res/ico/fbo.png');
     background-repeat: no-repeat;
-    width: 128px;
-    height: 128px;
+    background-size:100%;
     margin-left: 10%;
   }
 
   #FBLogo:hover
   {
-   background-position: 0px -152px;
-}
+    background-position: 0px 100%;
+
+ }
 
  #TWLogo{
-    background: url('../res/ico/two.png');
-    background-repeat: no-repeat;
-    width: 128px;
-    height: 128px;
+   background: url('../res/ico/two.png');
+   background-repeat: no-repeat;
+   background-size:100%;
 
  }
  #TWLogo:hover{
-   background-position: 0px -152px;
+    background-position: 0px 100%;
+
 
  }
 
  #GPLogo{
-    background: url('../res/ico/gpo.png');
-    background-repeat: no-repeat;
-    width: 128px;
-    height: 128px;
+   background: url('../res/ico/gpo.png');
+   background-repeat: no-repeat;
+   background-size:100%;
 
  }
 
  #GPLogo:hover{
-   background-position: 0px -152px;
+    background-position: 0px 100%;
+
+
  }
 
 
  #LILogo{
-    background: url('../res/ico/lio.png');
-    background-repeat: no-repeat;
-    width: 128px;
-    height: 128px;
+   background: url('../res/ico/lio.png');
+   background-repeat: no-repeat;
+   background-size:100%;
  }
 
  #LILogo:hover{
-  background-position: 0px -152px;
+    background-position: 0px 100%;
+
+
  }
 
 
@@ -375,9 +377,4 @@ body {
 .about{
 margin-top: 10%;
 
-}
-
-.withCursor
-{
-  cursor: pointer;
 }
